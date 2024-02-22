@@ -55,6 +55,7 @@ git reset
 # To Commit 
 git commit
 git commit -m "Remark"
+git commit -m "Remark" -a [for direct commit after modify]
 
 # To restore previous stage a file  
 git checkout filename.fileext

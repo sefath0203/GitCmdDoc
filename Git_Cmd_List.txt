@@ -82,6 +82,15 @@ git diff --staged [diff between last commit and staged commit]
 # To remove a file
 git rm filename.fileext -f
 
+# To see all git branch
+git branch
+
+# To create a new branch
+git branch master1
+
+# To transfer into another branch
+git checkout master1
+git checkout -b master1 [create new branch and transfer]
 
 
 

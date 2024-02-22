@@ -55,8 +55,11 @@ git reset
 # To Commit 
 git commit
 git commit -m "Remark"
-#
 
-#
+# To restore previous stage a file  
+git checkout filename.fileext
+
+# To restore deleted files
+git checkout -f
 
 #

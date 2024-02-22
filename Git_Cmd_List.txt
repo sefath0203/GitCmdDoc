@@ -43,11 +43,18 @@ git add filename.fileext
 # To add all files to stage 
 git add -A
 
+# To add all files to stage 
+git add .
+
+# To add all files to stage 
+git add ./FolderName
+
 # To bring all the files to untracked position
 git reset
 
-#
-
+# To Commit 
+git commit
+git commit -m "Remark"
 #
 
 #

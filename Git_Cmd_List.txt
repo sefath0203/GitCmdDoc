@@ -1,0 +1,55 @@
+# https://training.github.com/downloads/github-git-cheat-sheet/
+# https://git-scm.com/book/en/v2
+
+
+# Set git user name
+git config --global user.name sefath0203
+
+
+# To see the git user name
+git config --global user.name 
+
+
+# Set git user email
+git config --global user.email sefath.iu.0203@gmail.com
+
+
+# To see the git user email
+git config --global user.email
+
+
+# To status git for a project folder
+git init
+
+
+# To see the git status of the project folder
+git status
+
+# To see the git version
+git --version
+
+# To see the file\folder list using bash shell
+ls
+
+# To see the hidden file\folder list using bash shell
+list -lart
+
+# To Create new file using bash shell
+touch filename.fileext
+
+# To add a file to stage [file name is case censitive]
+git add filename.fileext 
+
+# To add all files to stage 
+git add -A
+
+# To bring all the files to untracked position
+git reset
+
+#
+
+#
+
+#
+
+#

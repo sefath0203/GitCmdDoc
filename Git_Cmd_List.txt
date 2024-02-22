@@ -62,4 +62,5 @@ git checkout filename.fileext
 # To restore deleted files
 git checkout -f
 
-#
+# To see git log
+git log

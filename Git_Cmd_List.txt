@@ -1,6 +1,13 @@
 # https://training.github.com/downloads/github-git-cheat-sheet/
 # https://git-scm.com/book/en/v2
-
+# https://www.youtube.com/watch?v=M-qSAdWFs9c&list=TLPQMjIwMjIwMjRb9zU0Dq-lOQ&index=2
+#
+#
+#
+#
+#
+#
+#
 
 # Set git user name
 git config --global user.name sefath0203
@@ -51,6 +58,7 @@ git add ./FolderName
 
 # To bring all the files to untracked position
 git reset
+git reset --hard 
 
 # To Commit 
 git commit
@@ -66,3 +74,15 @@ git checkout -f
 # To see git log
 git log
 git log -p -2
+
+# To see difference before commit
+git diff
+git diff --staged [diff between last commit and staged commit]
+
+# To remove a file
+git rm filename.fileext -f
+
+
+
+
+

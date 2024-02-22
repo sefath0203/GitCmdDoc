@@ -65,3 +65,4 @@ git checkout -f
 
 # To see git log
 git log
+git log -p -2
